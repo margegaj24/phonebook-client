@@ -7,7 +7,7 @@ import "./Login.css";
 import axios from "axios";
 
 export default function Register() {
-  const url = "http://192.168.1.100:8000/register";
+  const url = "http://localhost:8000/register";
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [email, setEmail] = useState("");
